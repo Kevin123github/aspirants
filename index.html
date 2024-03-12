@@ -1,0 +1,1829 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Mactonal &#8211; Factory and Industrial WordPress Theme</title>
+    <meta name='robots' content='max-image-preview:large' />
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel="alternate" type="application/rss+xml" title="Mactonal &raquo; Feed" href="https://themedox.com/mactonal/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Mactonal &raquo; Comments Feed" href="https://themedox.com/mactonal/comments/feed/" />
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/themedox.com\/mactonal\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.3"
+            }
+        };
+        /*! This file is auto-generated */
+        ! function(i, n) {
+            var o, s, e;
+
+            function c(e) {
+                try {
+                    var t = {
+                        supportTests: e,
+                        timestamp: (new Date).valueOf()
+                    };
+                    sessionStorage.setItem(o, JSON.stringify(t))
+                } catch (e) {}
+            }
+
+            function p(e, t, n) {
+                e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+                var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+                    r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                return t.every(function(e, t) {
+                    return e === r[t]
+                })
+            }
+
+            function u(e, t, n) {
+                switch (t) {
+                    case "flag":
+                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+                    case "emoji":
+                        return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
+                }
+                return !1
+            }
+
+            function f(e, t, n) {
+                var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"),
+                    a = r.getContext("2d", {
+                        willReadFrequently: !0
+                    }),
+                    o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
+                return e.forEach(function(e) {
+                    o[e] = t(a, e, n)
+                }), o
+            }
+
+            function t(e) {
+                var t = i.createElement("script");
+                t.src = e, t.defer = !0, i.head.appendChild(t)
+            }
+            "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
+                everything: !0,
+                everythingExceptFlag: !0
+            }, e = new Promise(function(e) {
+                i.addEventListener("DOMContentLoaded", e, {
+                    once: !0
+                })
+            }), new Promise(function(t) {
+                var n = function() {
+                    try {
+                        var e = JSON.parse(sessionStorage.getItem(o));
+                        if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
+                    } catch (e) {}
+                    return null
+                }();
+                if (!n) {
+                    if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
+                        var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));",
+                            r = new Blob([e], {
+                                type: "text/javascript"
+                            }),
+                            a = new Worker(URL.createObjectURL(r), {
+                                name: "wpTestEmojiSupports"
+                            });
+                        return void(a.onmessage = function(e) {
+                            c(n = e.data), a.terminate(), t(n)
+                        })
+                    } catch (e) {}
+                    c(n = f(s, u, p))
+                }
+                t(n)
+            }).then(function(e) {
+                for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+                n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function() {
+                    n.DOMReady = !0
+                }
+            }).then(function() {
+                return e
+            }).then(function() {
+                var e;
+                n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
+            }))
+        }((window, document), window._wpemojiSettings);
+        /* ]]> */
+    </script>
+    <style id='wp-emoji-styles-inline-css' type='text/css'>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <style id='classic-theme-styles-inline-css' type='text/css'>
+        /*! This file is auto-generated */
+
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id='global-styles-inline-css' type='text/css'>
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flow>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-flow>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-flow>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-constrained>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-constrained>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+            max-width: var(--wp--style--global--content-size);
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignwide {
+            max-width: var(--wp--style--global--wide-size);
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        body .is-layout-flex>* {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        body .is-layout-grid>* {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .wp-block-navigation a:where(:not(.wp-element-button)) {
+            color: inherit;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        .wp-block-pullquote {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel='stylesheet' id='contact-form-7-css' href='https://themedox.com/mactonal/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.8.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/assets/css/bootstrap.min.css?ver=5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='themefont-awesome-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/assets/css/font-awesome.css?ver=6.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='icon-font-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/assets/css/icon-font.css?ver=6.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='remix-font-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/assets/css/remixicon.css?ver=6.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='animate-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/assets/css/animate.css?ver=6.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='magnific-popup-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/assets/css/magnific-popup.css?ver=6.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='flaticon-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/assets/css/flaticon.css?ver=6.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='odometer-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/assets/css/odometer.css?ver=6.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='tg-cursor-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/assets/css/tg-cursor.css?ver=6.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='splitting-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/assets/css/splitting.css?ver=6.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='slick-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/assets/css/slick.css?ver=6.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='swiper-css' href='https://themedox.com/mactonal/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='mactonal-fonts-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/assets/css/theme-fonts.css?ver=1.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='mactonal-main-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/assets/css/main.css?ver=6.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='mactonal-responsive-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/assets/css/responsive.css?ver=6.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='mactonal-style-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/style.css?ver=6.4.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='mactonal-custom-style-css' href='https://themedox.com/mactonal/wp-content/themes/mactonal/assets/css/custom-style.css?ver=6.4.3' type='text/css' media='all' />
+    <style id='mactonal-custom-style-inline-css' type='text/css'>
+        .cat-item-8 span.post_count {
+            background-color: #0073FF !important;
+        }
+
+        .cat-item-17 span.post_count {
+            background-color: #0073FF !important;
+        }
+
+        .cat-item-6 span.post_count {
+            background-color: #0073FF !important;
+        }
+
+        .cat-item-3 span.post_count {
+            background-color: #0073FF !important;
+        }
+
+        .cat-item-9 span.post_count {
+            background-color: #0073FF !important;
+        }
+
+        .cat-item-7 span.post_count {
+            background-color: #0073FF !important;
+        }
+    </style>
+    <link rel='stylesheet' id='elementor-icons-css' href='https://themedox.com/mactonal/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.25.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css' href='https://themedox.com/mactonal/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.18.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-5-css' href='https://themedox.com/mactonal/wp-content/uploads/elementor/css/post-5.css?ver=1707671890' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-global-css' href='https://themedox.com/mactonal/wp-content/uploads/elementor/css/global.css?ver=1707671890' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-155-css' href='https://themedox.com/mactonal/wp-content/uploads/elementor/css/post-155.css?ver=1707671890' type='text/css' media='all' />
+    <link rel='stylesheet' id='csf-google-web-fonts-css' href='//fonts.googleapis.com/css?family=Manrope:400,700&#038;display=swap' type='text/css' media='all' />
+    <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.3'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://themedox.com/mactonal/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://themedox.com/mactonal/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' type='text/css' media='all' />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+    <link rel="https://api.w.org/" href="https://themedox.com/mactonal/wp-json/" />
+    <link rel="alternate" type="application/json" href="https://themedox.com/mactonal/wp-json/wp/v2/pages/155" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://themedox.com/mactonal/xmlrpc.php?rsd" />
+    <meta name="generator" content="WordPress 6.4.3" />
+    <link rel="canonical" href="https://themedox.com/mactonal/" />
+    <link rel='shortlink' href='https://themedox.com/mactonal/' />
+    <link rel="alternate" type="application/json+oembed" href="https://themedox.com/mactonal/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthemedox.com%2Fmactonal%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="https://themedox.com/mactonal/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthemedox.com%2Fmactonal%2F&#038;format=xml" />
+    <meta name="generator" content="Elementor 3.18.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
+    <style type="text/css">
+        .main-container.blog-spacing {
+            padding-top: 120px;
+            padding-right: 0px;
+            padding-bottom: 120px;
+            padding-left: 0px;
+        }
+
+        .main-container.cat-page-spacing {
+            padding-top: 120px;
+            padding-right: 0px;
+            padding-bottom: 120px;
+            padding-left: 0px;
+        }
+
+        .single-one-bwrap {
+            padding-top: 120px;
+            padding-right: 0px;
+            padding-bottom: 120px;
+            padding-left: 0px;
+        }
+
+        body {
+            background-color: #fff;
+        }
+
+        body.page .main-container {
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+        }
+    </style>
+    <link rel="icon" href="https://themedox.com/mactonal/wp-content/uploads/2023/09/favicon-1.png" sizes="32x32" />
+    <link rel="icon" href="https://themedox.com/mactonal/wp-content/uploads/2023/09/favicon-1.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://themedox.com/mactonal/wp-content/uploads/2023/09/favicon-1.png" />
+    <meta name="msapplication-TileImage" content="https://themedox.com/mactonal/wp-content/uploads/2023/09/favicon-1.png" />
+</head>
+
+
+<body class="home page-template-default page page-id-155 sidebar-active elementor-default elementor-kit-5 elementor-page elementor-page-155">
+
+
+
+    <!-- Preloader-start -->
+    <div id="preloader">
+        <div class="ta-preloader-block">
+            <div class="ta-spinner-eff">
+                <div class="ta-bar ta-bar-top"></div>
+                <div class="ta-bar ta-bar-right"></div>
+                <div class="ta-bar ta-bar-bottom"></div>
+                <div class="ta-bar ta-bar-left"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader-start-end -->
+
+    <!-- Scroll-top -->
+    <button class="scroll-top scroll-to-target" data-target="html">
+        <i class="fas fa-angle-up"></i>
+    </button>
+    <!-- Scroll-top-end-->
+
+
+    <div class="body-inner-content">
+
+
+
+        <!-- header-area -->
+        <header class="transparent-header header-template-one">
+            
+            <div class="header-logo-area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3">
+                            <div class="logo">
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="header-info-wrap">
+
+                                
+
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sticky-header" class="menu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="menu-wrap">
+                                <nav class="menu-nav">
+                                    <div class="logo d-none">
+                                        <a href="https://themedox.com/mactonal/">
+														<img class="img-fluid" src="https://themedox.com/mactonal/wp-content/uploads/2024/02/White_Logo.png" alt="">
+													</a>
+
+                                    </div>
+                                    <div class="logo sticky-logo">
+                                        <a href="https://themedox.com/mactonal/" class="logo">
+														<img class="img-fluid" src="https://themedox.com/mactonal/wp-content/uploads/2024/02/Black_logo.png" alt="">
+													</a>
+                                    </div>
+
+                                    <div class="navbar-wrap main-menu d-none d-lg-flex">
+                                        
+                                    </div>
+                                    <div class="header-action d-none d-md-block">
+                                        
+                                    </div>
+                                    <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
+                                </nav>
+                            </div>
+
+
+
+
+                            <!-- Mobile Menu  -->
+                            <div class="mobile-menu">
+                                <nav class="menu-box">
+                                    <div class="close-btn"><i class="fas fa-times"></i></div>
+                                    <div class="nav-logo">
+                                        <a href="https://themedox.com/mactonal/" class="logo">
+                                    <img class="img-fluid" src="https://themedox.com/mactonal/wp-content/uploads/2024/02/Black_logo.png" alt="">
+                                </a>
+                                    </div>
+                                    <div class="menu-outer">
+                                        <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                                    </div>
+                                    <div class="social-links">
+                                        <ul class="clearfix list-wrap">
+
+
+                                            <li><a href="https://www.facebook.com">
+                            <i class="fab fa-facebook-f"></i>
+                          </a></li>
+
+
+                                            <li><a href="https://www.facebook.com">
+                            <i class="fab fa-twitter"></i>
+                          </a></li>
+
+
+                                            <li><a href="https://www.facebook.com">
+                            <i class="fab fa-linkedin-in"></i>
+                          </a></li>
+
+
+                                            <li><a href="https://www.facebook.com">
+                            <i class="fab fa-instagram"></i>
+                          </a></li>
+
+
+                                            <li><a href="https://www.facebook.com">
+                            <i class="fab fa-pinterest-p"></i>
+                          </a></li>
+
+
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="menu-backdrop"></div>
+                            <!-- End Mobile Menu -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- header-search -->
+            <div class="search-popup-wrap" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="search-wrap text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="search-form">
+                                    <form role="search" method="get" action="https://themedox.com/mactonal/">
+                                        <input type="text" class="hsearch-input" value="" name="s" placeholder="Enter your keyword..." required />
+                                        <button type="submit" id="searchsubmitt" class="hsearch-button search-btn"><i class="fas fa-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-backdrop"></div>
+            <!-- header-search-end -->
+
+        </header>
+        <!-- header-area-end -->
+
+
+
+
+
+        <!-- Page Breadcrumb -->
+
+
+        <!-- Page Breadcrumb End -->
+
+
+        <div id="main-content" class="main-container theme-page-spacing fix" role="main">
+            <div class="page-container">
+                <div class="page-row">
+                    <div class="page-full-width">
+                        <div class="single-content">
+                            <div class="entry-content">
+                                <article id="post-155" class="post-155 page type-page status-publish hentry">
+                                    <div class="post-body clearfix">
+                                        <!-- Article content -->
+                                        <div class="entry-content clearfix">
+                                            <div data-elementor-type="wp-page" data-elementor-id="155" class="elementor elementor-155">
+                                                <div class="elementor-element elementor-element-1447dc1 e-con-full e-flex e-con e-parent" data-id="1447dc1" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                                                    <div class="elementor-element elementor-element-017201e elementor-widget elementor-widget-theme-slide-two" data-id="017201e" data-element_type="widget" data-widget_type="theme-slide-two.default">
+                                                        <div class="elementor-widget-container">
+
+                                                            <!-- slider-area -->
+                                                            <section class="slider-area home-slide-sec-one">
+                                                                <div class="slider-active">
+
+
+                                                                    <div class="single-slider slider-bg" data-background="r1.jpg">
+                                                                        <div class="container">
+                                                                            <div class="row">
+                                                                                <div class="col-lg-9">
+                                                                                    <div class="slider-content">
+                                                                                        <span class="sub-title" data-animation-in="slideInLeft" data-delay-in=".2" data-duration-in="1.5">Welcome to ASPIRANTS</span>
+                                                                                        <h2 class="title" data-animation-in="slideInLeft" data-delay-in=".4" data-duration-in="1.5">Build Quality Products For The Industry’s & Business Future</h2>
+                                                                                        <div class="slider-btn" data-animation-in="slideInLeft" data-delay-in=".6" data-duration-in="1.5">
+                                                                                            
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="slider-shape">
+                                                                            <span class="shape-one" data-animation-in="zoomIn" data-delay-in=".8" data-duration-in="1"></span>
+                                                                            <span class="shape-two" data-animation-in="zoomIn" data-delay-in=".8" data-duration-in="1.5"></span>
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                    <div class="single-slider slider-bg" data-background="r2.jpg">
+                                                                        <div class="container">
+                                                                            <div class="row">
+                                                                                <div class="col-lg-9">
+                                                                                    <div class="slider-content">
+                                                                                        <span class="sub-title" data-animation-in="slideInLeft" data-delay-in=".2" data-duration-in="1.5">Welcome to ASPIRANTS</span>
+                                                                                        <h2 class="title" data-animation-in="slideInLeft" data-delay-in=".4" data-duration-in="1.5">Build Quality Products For The Industry’s Future</h2>
+                                                                                    
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="slider-shape">
+                                                                            <span class="shape-one" data-animation-in="zoomIn" data-delay-in=".8" data-duration-in="1"></span>
+                                                                            <span class="shape-two" data-animation-in="zoomIn" data-delay-in=".8" data-duration-in="1.5"></span>
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                    <div class="single-slider slider-bg" data-background="https://themedox.com/mactonal/wp-content/uploads/2023/09/slider_bg03.jpg">
+                                                                        <div class="container">
+                                                                            <div class="row">
+                                                                                <div class="col-lg-9">
+                                                                                    <div class="slider-content">
+                                                                                        <span class="sub-title" data-animation-in="slideInLeft" data-delay-in=".2" data-duration-in="1.5">Welcome to ASPIRANTS</span>
+                                                                                        <h2 class="title" data-animation-in="slideInLeft" data-delay-in=".4" data-duration-in="1.5">Build Quality Products For The Industry’s Future</h2>
+                                                                                        <div class="slider-btn" data-animation-in="slideInLeft" data-delay-in=".6" data-duration-in="1.5">
+                                                                                            <a href="#" class="btn">Our Services</a>
+                                                                                            <a href="#" class="btn btn-two">Contact Us</a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="slider-shape">
+                                                                            <span class="shape-one" data-animation-in="zoomIn" data-delay-in=".8" data-duration-in="1"></span>
+                                                                            <span class="shape-two" data-animation-in="zoomIn" data-delay-in=".8" data-duration-in="1.5"></span>
+                                                                        </div>
+                                                                    </div>
+
+
+
+
+
+                                                                </div>
+                                                            </section>
+                                                            <!-- slider-area-end -->
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-c10a543 e-con-full e-flex e-con e-parent" data-id="c10a543" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                                                    <div class="elementor-element elementor-element-280c26e elementor-widget elementor-widget-theme-about-onee-sec" data-id="280c26e" data-element_type="widget" data-widget_type="theme-about-onee-sec.default">
+                                                        <div class="elementor-widget-container">
+
+
+
+                                                            <!-- about-area -->
+                                                            <section class="about-area pt-140 pb-140" data-animation="animationContainer">
+                                                                <div class="container">
+                                                                    <div class="row justify-content-center">
+                                                                        <div class="col-lg-8">
+
+
+                                                                            <div class="section-title text-center title-style-two mb-50">
+                                                                                <span class="sub-title">ABOUT COMPANY</span>
+                                                                                <h2 class="title" data-splitting="chars" data-animation="innerAnimated">From Insights to Impact:Aspirants' ML Drives Industrial Profitability.</h2>
+                                                                            </div>
+
+
+
+
+
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row align-items-center justify-content-center">
+                                                                        <div class="col-lg-6 col-md-8">
+                                                                            <div class="about-img-wrap">
+                                                                                <img decoding="async" src="r2.jpg" alt="">
+                                                                                <img decoding="async" src="r1.jpg" alt="" width="400px" height="200px">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-6">
+                                                                            <div class="about-content">
+
+                                                                                <p>
+                                                                                    At Aspirants, we believe every industry holds hidden potential for profit improvement. 
+                                                                                    We're a passionate team of Machine Learning (ML) specialists dedicated to unlocking that
+                                                                                     potential.  Our customized ML solutions empower businesses to gain deeper insights from 
+                                                                                     their data, optimize operations, and drive significant profit growth. Partner with 
+                                                                                     Aspirants and see how AI can revolutionize your bottom line.
+                                                                                </p>
+
+                                                                                <div class="about-list">
+                                                                                    <ul class="list-wrap about-one-custom-list">
+
+
+
+                                                                                        <li>
+                                                                                            <div class="icon">
+                                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none"><path d="M24.1151 19.61C23.8449 17.9901 22.7091 16.6609 21.1511 16.1415L17.6914 14.9884V14.4741H16.8873V15.1773L14.0729 20.4547L11.2585 15.1777V14.4741H10.4544V15.3788L13.6708 21.4096V22.1132H8.84612V22.9174H13.6708V24.1235H7.69342L8.01426 21.5564C8.53252 21.2154 8.84612 20.6401 8.84612 20.0081V19.7009H8.04201V20.0081C8.04201 20.4093 7.81886 20.7704 7.46023 20.9497L7.26764 21.0458L6.88287 24.1235H4.09379L4.55174 21.3751L3.75847 21.2432L3.14453 24.9276H25.0008L24.1151 19.61ZM14.4749 24.1235V22.9174H19.2996V22.1132H14.4749V21.4096L17.4844 15.7671L19.2996 16.3718V20.0077C19.2996 20.6397 19.6133 21.215 20.1315 21.5564L20.4523 24.1235H14.4749ZM21.2629 24.1235L20.8781 21.0458L20.6855 20.9497C20.3269 20.77 20.1038 20.4093 20.1038 20.0081V16.64L20.8966 16.9042C22.1716 17.3295 23.1007 18.4171 23.3218 19.7423L24.0516 24.1235H21.2629Z" fill="#FF5203"></path><path d="M7.238 8.84529C7.238 9.87697 8.02201 10.7197 9.02394 10.8331C9.22899 11.5387 9.60773 12.1856 10.1417 12.7195L11.7093 14.2871C12.0888 14.6667 12.5938 14.8762 13.131 14.8762H15.015C15.5522 14.8762 16.0571 14.6667 16.4367 14.2871L18.0043 12.7195C18.5383 12.1856 18.9166 11.5387 19.122 10.8331C20.124 10.7197 20.908 9.87697 20.908 8.84529C20.908 8.39096 20.7508 7.97604 20.4955 7.63911H21.31V5.22676H20.0464C19.7267 2.85341 17.9943 0.867642 15.6812 0.226761V0H12.4648V0.226761C10.1521 0.867642 8.41965 2.85341 8.09961 5.22676H6.83594V7.63911H7.65051C7.3952 7.97604 7.238 8.39096 7.238 8.84529ZM8.04211 8.84529C8.04211 8.32181 8.37944 7.87954 8.84623 7.71309V9.59191C8.84623 9.72338 8.85387 9.85365 8.86513 9.98311C8.38869 9.82229 8.04211 9.3756 8.04211 8.84529ZM18.4956 9.59191C18.4956 10.5589 18.1189 11.4671 17.4358 12.151L15.8682 13.7186C15.6402 13.9466 15.3375 14.072 15.015 14.072H13.131C12.8085 14.072 12.5054 13.9466 12.2778 13.7186L10.7102 12.151C10.0271 11.4675 9.65035 10.5589 9.65035 9.59231V7.63911H18.4956V9.59191ZM19.2809 9.98311C19.2921 9.85365 19.2998 9.72379 19.2998 9.59191V7.71309C19.7665 7.87954 20.1039 8.32181 20.1039 8.84529C20.1039 9.3756 19.7573 9.82229 19.2809 9.98311ZM12.4648 1.06385V4.42264H13.2689V0.804117H14.8771V4.42264H15.6812V1.06385C17.5444 1.66814 18.9355 3.29085 19.2378 5.22676H8.90815C9.2109 3.29045 10.6016 1.66814 12.4648 1.06385ZM7.64005 6.83499V6.03088H20.5059V6.83499H7.64005Z" fill="#FF5203"></path><path d="M17.2885 3.61853H16.4844V4.42265H17.2885V3.61853Z" fill="#FF5203"></path><path d="M11.6596 3.61853H10.8555V4.42265H11.6596V3.61853Z" fill="#FF5203"></path><path d="M3.69188 20.505H5.95908L6.16695 19.4684C6.30003 19.4218 6.4303 19.3679 6.55694 19.308L7.43625 19.8938L9.03925 18.2908L8.45345 17.4115C8.51336 17.2853 8.56724 17.1546 8.61388 17.0215L9.64998 16.8137V14.5464L8.61347 14.3386C8.53829 14.1259 8.44662 13.9208 8.33847 13.7271L7.63567 14.1183C7.75347 14.3293 7.84755 14.5581 7.9155 14.7969L7.98305 15.0325L8.84586 15.2054V16.1547L7.98305 16.3276L7.9155 16.5632C7.84755 16.8024 7.75347 17.0308 7.63567 17.2418L7.51626 17.4561L8.00355 18.1871L7.33252 18.8581L6.60157 18.3708L6.38728 18.4902C6.17619 18.608 5.94742 18.7021 5.7086 18.7701L5.47299 18.8372L5.30011 19.7008H4.35085L4.17796 18.838L3.94236 18.7709C3.70313 18.7029 3.47476 18.6088 3.26368 18.491L3.04939 18.3716L2.31844 18.8589L1.41421 17.9551L0.845703 18.5236L2.21552 19.8938L3.09482 19.308C3.22106 19.3679 3.35173 19.4218 3.48482 19.4684L3.69188 20.505Z" fill="#FF5203"></path><path d="M1.31151 17.6331L2.01431 17.2419C1.89651 17.0308 1.80243 16.802 1.73448 16.5632L1.66693 16.3276L0.804117 16.1551V15.2059L1.66693 15.033L1.73448 14.7974C1.80243 14.5581 1.89651 14.3298 2.01431 14.1187L2.13372 13.9044L1.64643 13.1735L2.31747 12.5024L3.04841 12.9897L3.2627 12.8703C3.47379 12.7525 3.70256 12.6584 3.94138 12.5905L4.17699 12.5233L4.34987 11.6597H5.29913L5.47202 12.5225L5.70762 12.5897C5.94685 12.6576 6.17522 12.7517 6.3863 12.8695L6.60059 12.9889L7.33154 12.5016L8.23577 13.4054L8.80428 12.8369L7.43446 11.4667L6.55516 12.0525C6.42892 11.9926 6.29825 11.9387 6.16516 11.8921L5.95811 10.8556H3.6909L3.48303 11.8921C3.34995 11.9387 3.21968 11.9926 3.09304 12.0525L2.21373 11.4667L0.610727 13.0697L1.19653 13.949C1.13662 14.0753 1.08274 14.2059 1.0361 14.339L0 14.5469V16.8141L1.03651 17.022C1.11169 17.2342 1.20336 17.4393 1.31151 17.6331Z" fill="#FF5203"></path><path d="M4.82475 13.6699C3.71627 13.6699 2.81445 14.5717 2.81445 15.6802C2.81445 16.7887 3.71627 17.6905 4.82475 17.6905C5.93322 17.6905 6.83504 16.7887 6.83504 15.6802C6.83504 14.5717 5.93322 13.6699 4.82475 13.6699ZM4.82475 16.8864C4.15974 16.8864 3.61857 16.3452 3.61857 15.6802C3.61857 15.0152 4.15974 14.474 4.82475 14.474C5.48975 14.474 6.03092 15.0152 6.03092 15.6802C6.03092 16.3452 5.48975 16.8864 4.82475 16.8864Z" fill="#FF5203"></path></svg>                                                                                                </div>
+                                                                                            <div class="content">
+                                                                                                <h4 class="title">Expert Business Ideation</h4>
+                                                                                                <p>
+                                                                                                    An expert business ideation specialist helps you transform creative sparks into high-potential business ventures.
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </li>
+
+
+                                                                                        <li>
+                                                                                            <div class="icon">
+                                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none"><path d="M3.33126 17.8268L0.116907 20.9845C0.0615822 21.0388 0.0236872 21.1084 0.008049 21.1843C-0.00758918 21.2603 -0.000262644 21.3392 0.0290953 21.411C0.0584533 21.4828 0.108514 21.5442 0.1729 21.5874C0.237286 21.6306 0.313084 21.6537 0.390637 21.6537H6.99962C7.62467 22.5297 8.44991 23.2438 9.40665 23.7364C10.3634 24.2291 11.424 24.4861 12.5001 24.4861C13.5762 24.4861 14.6368 24.2291 15.5935 23.7364C16.5503 23.2438 17.3755 22.5297 18.0006 21.6537H24.6094C24.6869 21.6537 24.7627 21.6306 24.8271 21.5874C24.8915 21.5442 24.9415 21.4828 24.9709 21.411C25.0003 21.3392 25.0076 21.2603 24.992 21.1843C24.9763 21.1084 24.9384 21.0388 24.8831 20.9845L21.6687 17.8268L24.8918 14.452C24.9447 14.3967 24.9801 14.3271 24.9937 14.2518C25.0074 14.1765 24.9986 14.0989 24.9685 14.0286C24.9384 13.9582 24.8884 13.8983 24.8245 13.8561C24.7607 13.814 24.6859 13.7915 24.6094 13.7915H18.4169C18.5488 12.3824 18.3528 10.0584 17.6791 9.01869C17.6302 8.94331 17.5569 8.88708 17.4714 8.85947C16.4403 8.52621 15.3692 8.0144 14.2878 7.33823C14.2433 7.31041 14.1937 7.29184 14.1419 7.28362C14.0901 7.2754 14.0371 7.2777 13.9862 7.29039C13.9353 7.30307 13.8875 7.32587 13.8456 7.35744C13.8037 7.389 13.7686 7.42869 13.7424 7.47411L12.5 9.62611L11.2576 7.47411C11.2313 7.42869 11.1962 7.389 11.1543 7.35744C11.1124 7.32587 11.0646 7.30307 11.0137 7.29039C10.9628 7.2777 10.9099 7.2754 10.8581 7.28362C10.8063 7.29184 10.7566 7.31041 10.7122 7.33823C9.63076 8.0144 8.55967 8.52621 7.52857 8.85947C7.44308 8.88708 7.36972 8.94331 7.32086 9.01869C6.65318 10.049 6.45352 12.3927 6.58316 13.7915H0.390637C0.314139 13.7915 0.239323 13.814 0.175474 13.8561C0.111625 13.8983 0.0615524 13.9582 0.0314703 14.0286C0.0013881 14.0989 -0.00737978 14.1765 0.00625455 14.2518C0.0198889 14.3271 0.0553253 14.3967 0.108167 14.452L3.33126 17.8268ZM12.5 23.7048C11.3168 23.7048 10.1603 23.3539 9.17651 22.6966C8.19276 22.0393 7.42601 21.105 6.97324 20.0119C6.52047 18.9188 6.402 17.716 6.63282 16.5556C6.86364 15.3952 7.43339 14.3293 8.27 13.4926C9.10662 12.656 10.1725 12.0863 11.3329 11.8555C12.4934 11.6246 13.6962 11.7431 14.7893 12.1959C15.8823 12.6487 16.8166 13.4154 17.474 14.3992C18.1313 15.3829 18.4821 16.5395 18.4821 17.7226C18.4803 19.3086 17.8495 20.8292 16.728 21.9507C15.6065 23.0721 14.086 23.703 12.5 23.7048ZM20.8377 17.5658C20.7668 17.64 20.728 17.7391 20.7296 17.8418C20.7313 17.9444 20.7732 18.0423 20.8465 18.1142L23.6541 20.8725H18.4832C18.9954 19.9016 19.263 18.8204 19.263 17.7226C19.263 16.6249 18.9954 15.5437 18.4832 14.5728H23.6963L20.8377 17.5658ZM7.91016 9.55624C8.91192 9.21041 9.8743 8.75961 10.7813 8.21137L12.1619 10.6027C12.1962 10.6621 12.2455 10.7114 12.3048 10.7456C12.3642 10.7799 12.4316 10.798 12.5001 10.798C12.5687 10.798 12.6361 10.7799 12.6955 10.7456C12.7548 10.7114 12.8041 10.6621 12.8384 10.6027L14.2187 8.21137C15.1257 8.75959 16.0881 9.21037 17.0898 9.55619C17.5128 10.3423 17.7246 12.079 17.6648 13.3612C17.0308 12.6087 16.24 12.0039 15.3478 11.589C14.4556 11.1741 13.4835 10.9592 12.4996 10.9593C11.5156 10.9593 10.5435 11.1744 9.6514 11.5894C8.75926 12.0045 7.96858 12.6094 7.33467 13.3619C7.27227 12.0731 7.48345 10.3463 7.91016 9.55624ZM6.51646 14.5728C6.00431 15.5437 5.73663 16.6249 5.73663 17.7226C5.73663 18.8204 6.00431 19.9016 6.51646 20.8725H1.34571L4.15333 18.1142C4.22656 18.0423 4.26854 17.9444 4.27017 17.8418C4.27181 17.7391 4.23297 17.64 4.16207 17.5658L1.30367 14.5726L6.51646 14.5728ZM12.5254 7.10341C12.5413 7.1038 12.557 7.10395 12.5729 7.10395C13.2956 7.10395 13.9658 6.72675 14.4642 6.03774C15.0066 5.28784 15.3272 4.22334 15.4172 2.87368C15.418 2.86098 15.4182 2.84829 15.4179 2.83559C15.3972 2.07603 15.0807 1.35458 14.5359 0.824923C13.9911 0.295266 13.261 -0.000726349 12.5011 1.33857e-06H12.4989C11.739 -0.000725671 11.0089 0.29528 10.4641 0.824958C9.91927 1.35464 9.60282 2.07611 9.58213 2.83569V2.856C9.60743 4.06308 9.92002 5.11587 10.4861 5.90043C11.0254 6.6477 11.7686 7.08613 12.5254 7.10341ZM12.5 0.781251C13.0536 0.781034 13.5857 0.995682 13.9842 1.37999C14.3827 1.76429 14.6165 2.28825 14.6363 2.8415C14.46 5.41411 13.4205 6.32265 12.5703 6.32265C12.5613 6.32265 12.5522 6.32265 12.5432 6.32236C12.0332 6.31074 11.5143 5.99033 11.1196 5.44345C10.7907 4.98755 10.3929 4.16797 10.3633 2.85019C10.381 2.29535 10.6139 1.76915 11.0127 1.38299C11.4115 0.996829 11.9449 0.781021 12.5 0.781251ZM16.7221 16.7374C16.7003 16.6703 16.6607 16.6104 16.6076 16.5639C16.5544 16.5175 16.4897 16.4864 16.4203 16.4738L14.0063 16.0361L12.8442 13.8755C12.8108 13.8134 12.7611 13.7615 12.7006 13.7253C12.64 13.6891 12.5708 13.67 12.5002 13.67C12.4296 13.67 12.3604 13.6891 12.2998 13.7253C12.2393 13.7615 12.1896 13.8134 12.1562 13.8755L10.9941 16.0361L8.58013 16.4738C8.51071 16.4864 8.446 16.5175 8.39287 16.5639C8.33974 16.6104 8.30017 16.6703 8.27837 16.7374C8.25657 16.8045 8.25334 16.8763 8.26904 16.945C8.28474 17.0138 8.31878 17.0771 8.36753 17.1281L10.0632 18.9012L9.73355 21.3322C9.72406 21.4021 9.73369 21.4733 9.76141 21.5382C9.78914 21.6031 9.83392 21.6593 9.89101 21.7008C9.9481 21.7422 10.0154 21.7675 10.0856 21.7738C10.1559 21.7801 10.2266 21.7673 10.2902 21.7366L12.5 20.672L14.7103 21.7366C14.7738 21.7673 14.8445 21.7801 14.9148 21.7738C14.9851 21.7675 15.0523 21.7422 15.1094 21.7008C15.1665 21.6593 15.2113 21.6031 15.239 21.5383C15.2667 21.4734 15.2764 21.4022 15.2669 21.3323L14.9373 18.9012L16.6329 17.1281C16.6817 17.0771 16.7157 17.0139 16.7314 16.9451C16.7471 16.8763 16.7439 16.8045 16.7221 16.7374ZM14.2426 18.4972C14.202 18.5396 14.1716 18.5906 14.1534 18.6464C14.1353 18.7022 14.1299 18.7613 14.1378 18.8195L14.3952 20.7175L12.6696 19.8863C12.6167 19.8608 12.5587 19.8475 12.5 19.8475C12.4413 19.8475 12.3834 19.8608 12.3305 19.8863L10.6049 20.7175L10.8622 18.8195C10.8701 18.7613 10.8647 18.7022 10.8466 18.6464C10.8285 18.5906 10.798 18.5396 10.7575 18.4972L9.4336 17.1129L11.3184 16.7711C11.3761 16.7607 11.4308 16.7373 11.4783 16.7028C11.5258 16.6683 11.5649 16.6236 11.5927 16.5719L12.5 14.8851L13.4074 16.5719C13.4352 16.6236 13.4743 16.6684 13.5218 16.7029C13.5693 16.7374 13.624 16.7607 13.6817 16.7712L15.5665 17.113L14.2426 18.4972Z" fill="#FF5203"></path></svg>                                                                                                </div>
+                                                                                            <div class="content">
+                                                                                                <h4 class="title">Expert ML Practitioners</h4>
+                                                                                                <p>
+                                                                                                    They bridge the gap between data and decisions, leveraging machine learning to solve complex business problems</p>
+                                                                                            </div>
+                                                                                        </li>
+
+                                                                                        <li>
+                                                                                            <div class="icon">
+                                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none"><path d="M3.33126 17.8268L0.116907 20.9845C0.0615822 21.0388 0.0236872 21.1084 0.008049 21.1843C-0.00758918 21.2603 -0.000262644 21.3392 0.0290953 21.411C0.0584533 21.4828 0.108514 21.5442 0.1729 21.5874C0.237286 21.6306 0.313084 21.6537 0.390637 21.6537H6.99962C7.62467 22.5297 8.44991 23.2438 9.40665 23.7364C10.3634 24.2291 11.424 24.4861 12.5001 24.4861C13.5762 24.4861 14.6368 24.2291 15.5935 23.7364C16.5503 23.2438 17.3755 22.5297 18.0006 21.6537H24.6094C24.6869 21.6537 24.7627 21.6306 24.8271 21.5874C24.8915 21.5442 24.9415 21.4828 24.9709 21.411C25.0003 21.3392 25.0076 21.2603 24.992 21.1843C24.9763 21.1084 24.9384 21.0388 24.8831 20.9845L21.6687 17.8268L24.8918 14.452C24.9447 14.3967 24.9801 14.3271 24.9937 14.2518C25.0074 14.1765 24.9986 14.0989 24.9685 14.0286C24.9384 13.9582 24.8884 13.8983 24.8245 13.8561C24.7607 13.814 24.6859 13.7915 24.6094 13.7915H18.4169C18.5488 12.3824 18.3528 10.0584 17.6791 9.01869C17.6302 8.94331 17.5569 8.88708 17.4714 8.85947C16.4403 8.52621 15.3692 8.0144 14.2878 7.33823C14.2433 7.31041 14.1937 7.29184 14.1419 7.28362C14.0901 7.2754 14.0371 7.2777 13.9862 7.29039C13.9353 7.30307 13.8875 7.32587 13.8456 7.35744C13.8037 7.389 13.7686 7.42869 13.7424 7.47411L12.5 9.62611L11.2576 7.47411C11.2313 7.42869 11.1962 7.389 11.1543 7.35744C11.1124 7.32587 11.0646 7.30307 11.0137 7.29039C10.9628 7.2777 10.9099 7.2754 10.8581 7.28362C10.8063 7.29184 10.7566 7.31041 10.7122 7.33823C9.63076 8.0144 8.55967 8.52621 7.52857 8.85947C7.44308 8.88708 7.36972 8.94331 7.32086 9.01869C6.65318 10.049 6.45352 12.3927 6.58316 13.7915H0.390637C0.314139 13.7915 0.239323 13.814 0.175474 13.8561C0.111625 13.8983 0.0615524 13.9582 0.0314703 14.0286C0.0013881 14.0989 -0.00737978 14.1765 0.00625455 14.2518C0.0198889 14.3271 0.0553253 14.3967 0.108167 14.452L3.33126 17.8268ZM12.5 23.7048C11.3168 23.7048 10.1603 23.3539 9.17651 22.6966C8.19276 22.0393 7.42601 21.105 6.97324 20.0119C6.52047 18.9188 6.402 17.716 6.63282 16.5556C6.86364 15.3952 7.43339 14.3293 8.27 13.4926C9.10662 12.656 10.1725 12.0863 11.3329 11.8555C12.4934 11.6246 13.6962 11.7431 14.7893 12.1959C15.8823 12.6487 16.8166 13.4154 17.474 14.3992C18.1313 15.3829 18.4821 16.5395 18.4821 17.7226C18.4803 19.3086 17.8495 20.8292 16.728 21.9507C15.6065 23.0721 14.086 23.703 12.5 23.7048ZM20.8377 17.5658C20.7668 17.64 20.728 17.7391 20.7296 17.8418C20.7313 17.9444 20.7732 18.0423 20.8465 18.1142L23.6541 20.8725H18.4832C18.9954 19.9016 19.263 18.8204 19.263 17.7226C19.263 16.6249 18.9954 15.5437 18.4832 14.5728H23.6963L20.8377 17.5658ZM7.91016 9.55624C8.91192 9.21041 9.8743 8.75961 10.7813 8.21137L12.1619 10.6027C12.1962 10.6621 12.2455 10.7114 12.3048 10.7456C12.3642 10.7799 12.4316 10.798 12.5001 10.798C12.5687 10.798 12.6361 10.7799 12.6955 10.7456C12.7548 10.7114 12.8041 10.6621 12.8384 10.6027L14.2187 8.21137C15.1257 8.75959 16.0881 9.21037 17.0898 9.55619C17.5128 10.3423 17.7246 12.079 17.6648 13.3612C17.0308 12.6087 16.24 12.0039 15.3478 11.589C14.4556 11.1741 13.4835 10.9592 12.4996 10.9593C11.5156 10.9593 10.5435 11.1744 9.6514 11.5894C8.75926 12.0045 7.96858 12.6094 7.33467 13.3619C7.27227 12.0731 7.48345 10.3463 7.91016 9.55624ZM6.51646 14.5728C6.00431 15.5437 5.73663 16.6249 5.73663 17.7226C5.73663 18.8204 6.00431 19.9016 6.51646 20.8725H1.34571L4.15333 18.1142C4.22656 18.0423 4.26854 17.9444 4.27017 17.8418C4.27181 17.7391 4.23297 17.64 4.16207 17.5658L1.30367 14.5726L6.51646 14.5728ZM12.5254 7.10341C12.5413 7.1038 12.557 7.10395 12.5729 7.10395C13.2956 7.10395 13.9658 6.72675 14.4642 6.03774C15.0066 5.28784 15.3272 4.22334 15.4172 2.87368C15.418 2.86098 15.4182 2.84829 15.4179 2.83559C15.3972 2.07603 15.0807 1.35458 14.5359 0.824923C13.9911 0.295266 13.261 -0.000726349 12.5011 1.33857e-06H12.4989C11.739 -0.000725671 11.0089 0.29528 10.4641 0.824958C9.91927 1.35464 9.60282 2.07611 9.58213 2.83569V2.856C9.60743 4.06308 9.92002 5.11587 10.4861 5.90043C11.0254 6.6477 11.7686 7.08613 12.5254 7.10341ZM12.5 0.781251C13.0536 0.781034 13.5857 0.995682 13.9842 1.37999C14.3827 1.76429 14.6165 2.28825 14.6363 2.8415C14.46 5.41411 13.4205 6.32265 12.5703 6.32265C12.5613 6.32265 12.5522 6.32265 12.5432 6.32236C12.0332 6.31074 11.5143 5.99033 11.1196 5.44345C10.7907 4.98755 10.3929 4.16797 10.3633 2.85019C10.381 2.29535 10.6139 1.76915 11.0127 1.38299C11.4115 0.996829 11.9449 0.781021 12.5 0.781251ZM16.7221 16.7374C16.7003 16.6703 16.6607 16.6104 16.6076 16.5639C16.5544 16.5175 16.4897 16.4864 16.4203 16.4738L14.0063 16.0361L12.8442 13.8755C12.8108 13.8134 12.7611 13.7615 12.7006 13.7253C12.64 13.6891 12.5708 13.67 12.5002 13.67C12.4296 13.67 12.3604 13.6891 12.2998 13.7253C12.2393 13.7615 12.1896 13.8134 12.1562 13.8755L10.9941 16.0361L8.58013 16.4738C8.51071 16.4864 8.446 16.5175 8.39287 16.5639C8.33974 16.6104 8.30017 16.6703 8.27837 16.7374C8.25657 16.8045 8.25334 16.8763 8.26904 16.945C8.28474 17.0138 8.31878 17.0771 8.36753 17.1281L10.0632 18.9012L9.73355 21.3322C9.72406 21.4021 9.73369 21.4733 9.76141 21.5382C9.78914 21.6031 9.83392 21.6593 9.89101 21.7008C9.9481 21.7422 10.0154 21.7675 10.0856 21.7738C10.1559 21.7801 10.2266 21.7673 10.2902 21.7366L12.5 20.672L14.7103 21.7366C14.7738 21.7673 14.8445 21.7801 14.9148 21.7738C14.9851 21.7675 15.0523 21.7422 15.1094 21.7008C15.1665 21.6593 15.2113 21.6031 15.239 21.5383C15.2667 21.4734 15.2764 21.4022 15.2669 21.3323L14.9373 18.9012L16.6329 17.1281C16.6817 17.0771 16.7157 17.0139 16.7314 16.9451C16.7471 16.8763 16.7439 16.8045 16.7221 16.7374ZM14.2426 18.4972C14.202 18.5396 14.1716 18.5906 14.1534 18.6464C14.1353 18.7022 14.1299 18.7613 14.1378 18.8195L14.3952 20.7175L12.6696 19.8863C12.6167 19.8608 12.5587 19.8475 12.5 19.8475C12.4413 19.8475 12.3834 19.8608 12.3305 19.8863L10.6049 20.7175L10.8622 18.8195C10.8701 18.7613 10.8647 18.7022 10.8466 18.6464C10.8285 18.5906 10.798 18.5396 10.7575 18.4972L9.4336 17.1129L11.3184 16.7711C11.3761 16.7607 11.4308 16.7373 11.4783 16.7028C11.5258 16.6683 11.5649 16.6236 11.5927 16.5719L12.5 14.8851L13.4074 16.5719C13.4352 16.6236 13.4743 16.6684 13.5218 16.7029C13.5693 16.7374 13.624 16.7607 13.6817 16.7712L15.5665 17.113L14.2426 18.4972Z" fill="#FF5203"></path></svg>                                                                                                </div>
+                                                                                            <div class="content">
+                                                                                                <h4 class="title">Expert Cost and Revenue Advisory</h4>
+                                                                                                <p>They navigate the financial landscape, helping businesses optimize costs and maximize revenue streams.</p>
+                                                                                            </div>
+                                                                                        </li>
+
+
+
+
+                                                                                    </ul>
+                                                                                </div>
+
+                                                                                
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </section>
+                                                            <!-- about-area-end -->
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-f2cf97a e-con-full e-flex e-con e-parent" data-id="f2cf97a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                                                    <div class="elementor-element elementor-element-0c85258 elementor-widget elementor-widget-theme-services-two" data-id="0c85258" data-element_type="widget" data-widget_type="theme-services-two.default">
+                                                        <div class="elementor-widget-container">
+
+
+                                                            <!-- services-area -->
+                                                            <section class="services-area services-style-two-wrap" data-animation="animationContainer">
+                                                                <div class="container">
+                                                                    <div class="row justify-content-center">
+                                                                        <div class="col-lg-8">
+                                                                            <div class="section-title text-center mb-50">
+                                                                                <span class="sub-title">
+                                    <strong class="left-shape">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="18" viewBox="0 0 39 18" fill="none">
+                                            <path d="M39 0V3.5H2.6L0 0H39Z" fill="currentcolor" />
+                                            <path d="M39 7.20001V10.7H8.00002L5.40002 7.20001H39Z" fill="currentcolor" />
+                                            <path d="M39 14.4V17.9H13.5L10.9 14.4H39Z" fill="currentcolor" />
+                                        </svg>
+                                    </strong>
+                                    OUR SERVICES                                    <strong class="right-shape">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="18" viewBox="0 0 39 18" fill="none">
+                                            <path d="M0 0V3.5H36.4L39 0H0Z" fill="currentcolor" />
+                                            <path d="M0 7.20001V10.7H31L33.6 7.20001H0Z" fill="currentcolor" />
+                                            <path d="M0 14.4V17.9H25.5L28.2 14.4H0Z" fill="currentcolor" />
+                                        </svg>
+                                    </strong>
+                                </span>
+                                                                                <h2 class="title" data-splitting="chars" data-animation="innerAnimated">Provide Awesome Services For Industrial & Business Company</h2>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="container custom-container">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-12">
+                                                                            <div class="swiper-container services-active">
+                                                                                <div class="swiper-wrapper">
+
+
+
+                                                                                    <div class="swiper-slide">
+                                                                                        <div class="services-item">
+                                                                                            <div class="services-icon">
+
+                                                                                                <img src="r3.png">
+                                                                                            </div>
+                                                                                            <br>
+                                                                                            <br>
+                                                                                            <br>
+                                                                                            <br>
+                                                                                            <div class="services-content">
+                                                                                                <h4 class="title"><a href="#">consultancy</a></h4>
+                                                                                                
+                                                                                                <span class="number">01</span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+
+
+                                                                                    <div class="swiper-slide">
+                                                                                        <div class="services-item">
+                                                                                            <div class="services-icon">
+
+                                                                                                <img src="r4.png">                                                                                            </div>
+                                                                                            <div class="services-content">
+                                                                                                <h4 class="title"><a href="#">Software Services</a></h4>
+                                                                                                <span class="number">02</span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+
+
+                                                                                    <div class="swiper-slide">
+                                                                                        <div class="services-item">
+                                                                                            <div class="services-icon">
+
+                                                                                                <img src="r5.png" style="height: 325px;">  
+                                                                                                                                                                                      </div>
+                                                                                            <div class="services-content">
+                                                                                                
+                                                                                                <h4 class="title"><a href="#">Profit Management</a></h4>
+                                                                                                
+                                                                                                <span class="number">03</span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+
+
+                                                                                    <div class="swiper-slide">
+                                                                                        <div class="services-item">
+                                                                                            <div class="services-icon">
+
+                                                                                                <img src="r6.png" style="height: 280px;">                                                                                            </div>
+                                                                                            <div class="services-content">
+                                                                                                <h4 class="title"><a href="#">Business Growth & Market Establishment</a></h4>
+                                                                                                
+                                                                                                <span class="number">04</span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+
+
+                                                                                    
+
+
+
+
+
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row justify-content-center">
+                                                                        <div class="col-xl-5 col-lg-6 col-md-8">
+                                                                            <div class="services-scrollbar">
+                                                                                
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </section>
+                                                            <!-- services-area-end -->
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-48bd006 e-con-full e-flex e-con e-parent" data-id="48bd006" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                                                    <div class="elementor-element elementor-element-8cb0ec3 elementor-widget elementor-widget-project-slide-two" data-id="8cb0ec3" data-element_type="widget" data-widget_type="project-slide-two.default">
+                                                        <div class="elementor-widget-container">
+
+
+
+                                                            <!-- project-area -->
+                                                            <section class="project-area custom-project-slide-twoo" data-animation="animationContainer">
+
+                                                                <div class="container">
+                                                                    <div class="row justify-content-center">
+                                                                        <div class="col-lg-8">
+                                                                            <div class="section-title white-title text-center mb-50">
+                                                                                <span class="sub-title">
+                                    <strong class="left-shape">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="18" viewBox="0 0 39 18" fill="none">
+                                            <path d="M39 0V3.5H2.6L0 0H39Z" fill="currentcolor" />
+                                            <path d="M39 7.20001V10.7H8.00002L5.40002 7.20001H39Z" fill="currentcolor" />
+                                            <path d="M39 14.4V17.9H13.5L10.9 14.4H39Z" fill="currentcolor" />
+                                        </svg>
+                                    </strong>
+                                    OUR PROJECTS                                    <strong class="right-shape">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="18" viewBox="0 0 39 18" fill="none">
+                                            <path d="M0 0V3.5H36.4L39 0H0Z" fill="currentcolor" />
+                                            <path d="M0 7.20001V10.7H31L33.6 7.20001H0Z" fill="currentcolor" />
+                                            <path d="M0 14.4V17.9H25.5L28.2 14.4H0Z" fill="currentcolor" />
+                                        </svg>
+                                    </strong>
+                                </span>
+                                                                                <h2 class="title" data-splitting="chars" data-animation="innerAnimated">Let's Checkout Our Recently Completed Work</h2>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+
+
+
+
+                                                                <div class="project-item-wrap">
+                                                                    <div class="container custom-container">
+                                                                        <div class="row project-active">
+
+
+
+
+
+
+                                                                            <!--Project Three Single Start-->
+
+                                                                            <div class="col-lg-3">
+                                                                                <div class="project-item">
+                                                                                    <div class="project-thumb">
+                                                                                        <img src="r7.jpg" style="height: 400px;">
+                                                                                    </div>
+                                                                                    <div class="project-content">
+
+                                                                                        <span>Software Services</span>
+                                                                                        <h4 class="title"><a href="https://themedox.com/mactonal/portfolio/manufacture-petroleum-camber/">Sentiment analysis</a></h4>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+
+
+
+                                                                            <!--Project Three Single Start-->
+
+                                                                            <div class="col-lg-3">
+                                                                                <div class="project-item">
+                                                                                    <div class="project-thumb">
+                                                                                        <img src="r8.png" style="height: 400px;">
+                                                                                    </div>
+                                                                                    <div class="project-content">
+
+                                                                                        <span>Oil</span>
+                                                                                        <h4 class="title"><a href="https://themedox.com/mactonal/portfolio/oil-mill-construction/">Sales Prediction</a></h4>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+
+
+
+                                                                            <!--Project Three Single Start-->
+
+                                                                            <div class="col-lg-3">
+                                                                                <div class="project-item">
+                                                                                    <div class="project-thumb">
+                                                                                        <img src="r9.jpeg" style="height: 400px;">
+                                                                                    </div>
+                                                                                    <div class="project-content">
+
+                                                                                        <span>Gas</span>
+                                                                                        <h4 class="title"><a href="https://themedox.com/mactonal/portfolio/manufacture-gas-chamber/">Automation</a></h4>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+
+
+
+                                                                            
+
+
+
+
+                                                                            <!--Project Three Single Start-->
+
+                                                                            <div class="col-lg-3">
+                                                                                <div class="project-item">
+                                                                                    <div class="project-thumb">
+                                                                                        <img src="r10.jpg" style="height: 400px;">
+                                                                                    </div>
+                                                                                    <div class="project-content">
+
+                                                                                        
+                                                                                        <h4 class="title"><a href="https://themedox.com/mactonal/portfolio/renewable-energy-chamber/">Facial Detection</a></h4>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+
+
+
+                                                                            <!--Project Three Single Start-->
+
+                                                                            <div class="col-lg-3">
+                                                                                <div class="project-item">
+                                                                                    <div class="project-thumb">
+                                                                                        <img src="r11.jpg" style="height: 400px;">
+                                                                                    </div>
+                                                                                    <div class="project-content">
+
+                                                                                        <span>Production</span>
+                                                                                        <h4 class="title"><a href="https://themedox.com/mactonal/portfolio/manufacture-oil-reproduction/">Business Analytics</a></h4>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+
+
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+
+
+
+
+
+
+
+
+                                                            </section>
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-7c6651c e-con-full e-flex e-con e-parent" data-id="7c6651c" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                                                    <div class="elementor-element elementor-element-f70d884 elementor-widget elementor-widget-theme-choose-onee-sec" data-id="f70d884" data-element_type="widget" data-widget_type="theme-choose-onee-sec.default">
+                                                        <div class="elementor-widget-container">
+
+
+
+                                                            <!-- choose-area -->
+                                                            <section class="choose-area pt-120 pb-120" data-animation="animationContainer">
+                                                                <div class="container">
+                                                                    <div class="row justify-content-center">
+                                                                        <div class="col-xl-6 col-lg-8">
+                                                                            <div class="section-title text-center mb-50">
+                                                                                <span class="sub-title">
+                                    <strong class="left-shape">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="18" viewBox="0 0 39 18" fill="none">
+                                            <path d="M39 0V3.5H2.6L0 0H39Z" fill="currentcolor" />
+                                            <path d="M39 7.20001V10.7H8.00002L5.40002 7.20001H39Z" fill="currentcolor" />
+                                            <path d="M39 14.4V17.9H13.5L10.9 14.4H39Z" fill="currentcolor" />
+                                        </svg>
+                                    </strong>
+                                    WHY CHOOSE US                                    <strong class="right-shape">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="18" viewBox="0 0 39 18" fill="none">
+                                            <path d="M0 0V3.5H36.4L39 0H0Z" fill="currentcolor" />
+                                            <path d="M0 7.20001V10.7H31L33.6 7.20001H0Z" fill="currentcolor" />
+                                            <path d="M0 14.4V17.9H25.5L28.2 14.4H0Z" fill="currentcolor" />
+                                        </svg>
+                                    </strong>
+                                </span>
+                                                                                <h2 class="title" data-splitting="chars" data-animation="innerAnimated">Business & Industrialisation With speciality of AI & ML</h2>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row align-items-center justify-content-center">
+                                                                        <div class="col-lg-6 col-md-9">
+                                                                            <div class="choose-img-wrap">
+                                                                                <img decoding="async" src="r12.jpeg" alt="">
+                                                                                <h4 class="year-experience">4+ <span>years experience</span></h4>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-6">
+                                                                            <div class="choose-content">
+                                                                                <p>Aspiring to revolutionize industries? We use cutting-edge machine learning and AI to unlock hidden potential within businesses. By analyzing vast data sets, we create solutions that optimize operations, predict outcomes, and ultimately drive significant industrial development and profit growth.</p>
+                                                                                <div class="progress-wrap">
+
+
+
+                                                                                    <div class="progress-item">
+                                                                                        <h5 class="title">Business Modelling</h5>
+                                                                                        <div class="progress">
+                                                                                            <div class="progress-bar wow slideInLeft" data-wow-delay=".2s" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                                                                                        </div>
+                                                                                    </div>
+
+
+                                                                                    <div class="progress-item">
+                                                                                        <h5 class="title">Ideation</h5>
+                                                                                        <div class="progress">
+                                                                                            <div class="progress-bar wow slideInLeft" data-wow-delay=".2s" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><span>70%</span></div>
+                                                                                        </div>
+                                                                                    </div>
+
+
+                                                                                    <div class="progress-item">
+                                                                                        <h5 class="title">Consultancy</h5>
+                                                                                        <div class="progress">
+                                                                                            <div class="progress-bar wow slideInLeft" data-wow-delay=".2s" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                                                                                        </div>
+                                                                                    </div>
+
+
+                                                                                    <div class="progress-item">
+                                                                                        <h5 class="title">Profit Forecasting</h5>
+                                                                                        <div class="progress">
+                                                                                            <div class="progress-bar wow slideInLeft" data-wow-delay=".2s" role="progressbar" style="width: 88%;" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"><span>88%</span></div>
+                                                                                        </div>
+                                                                                    </div>
+
+
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </section>
+                                                            <!-- choose-area-end -->
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-ab8ad65 e-con-full e-flex e-con e-parent" data-id="ab8ad65" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                                                    <div class="elementor-element elementor-element-3fabd2c elementor-widget elementor-widget-theme-team-sec" data-id="3fabd2c" data-element_type="widget" data-widget_type="theme-team-sec.default">
+                                                        <div class="elementor-widget-container">
+
+
+                                                            <!-- area-bg -->
+                                                            <div class="area-bg">
+                                                                <div class="area-bg-inner" data-background="https://themedox.com/mactonal/wp-content/uploads/2023/09/area_bg.jpg"></div>
+
+                                                                <!-- team-area -->
+                                                                <section class="team-area cutom-team-one-wrap pb-80" data-animation="animationContainer">
+                                                                    <div class="container">
+                                                                        <div class="row justify-content-center">
+                                                                            <div class="col-lg-6">
+                                                                                <div class="section-title text-center mb-50">
+                                                                                    <span class="sub-title">
+                                        <strong class="left-shape">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="18" viewBox="0 0 39 18" fill="none">
+                                                <path d="M39 0V3.5H2.6L0 0H39Z" fill="currentcolor" />
+                                                <path d="M39 7.20001V10.7H8.00002L5.40002 7.20001H39Z" fill="currentcolor" />
+                                                <path d="M39 14.4V17.9H13.5L10.9 14.4H39Z" fill="currentcolor" />
+                                            </svg>
+                                        </strong>
+                                        OUR TEAM                                        <strong class="right-shape">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="18" viewBox="0 0 39 18" fill="none">
+                                                <path d="M0 0V3.5H36.4L39 0H0Z" fill="currentcolor" />
+                                                <path d="M0 7.20001V10.7H31L33.6 7.20001H0Z" fill="currentcolor" />
+                                                <path d="M0 14.4V17.9H25.5L28.2 14.4H0Z" fill="currentcolor" />
+                                            </svg>
+                                        </strong>
+                                    </span>
+                                                                                    <h2 class="title" data-splitting="chars" data-animation="innerAnimated">Team Behind the Inspiration!</h2>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row justify-content-center">
+
+
+
+                                                                            <div class="col-lg-4 col-md-6 col-sm-8">
+                                                                                <div class="team-item">
+                                                                                    <div class="team-thumb">
+                                                                                        <img decoding="async" src="kevin.jpg" alt="" style="height: 600px;">
+                                                                                        
+                                                                                    </div>
+                                                                                    <div class="team-content">
+                                                                                        <h4 class="title"><a href="#">KEVIN</a></h4>
+                                                                                        <span>Finance and Sales </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+                                                                            <div class="col-lg-4 col-md-6 col-sm-8">
+                                                                                <div class="team-item">
+                                                                                    <div class="team-thumb">
+                                                                                        <img decoding="async" src="jaya.jpg" alt="" style="height: 600px;">
+                                                                                        
+                                                                                    </div>
+                                                                                    <div class="team-content">
+                                                                                        <h4 class="title"><a href="#">JAYASEELAN</a></h4>
+                                                                                        <span>Business Ideation </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+                                                                            <div class="col-lg-4 col-md-6 col-sm-8">
+                                                                                <div class="team-item">
+                                                                                    <div class="team-thumb">
+                                                                                        <img decoding="async" src="karthi.jpg" alt="" style="height: 600px;">
+                                                                                        
+                                                                                    </div>
+                                                                                    <div class="team-content">
+                                                                                        <h4 class="title"><a href="#">KARTHIKEYAN</a></h4>
+                                                                                        <span>ML & AI </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+
+
+                                                                        </div>
+                                                                    </div>
+                                                                </section>
+                                                                <!-- team-area-end -->
+
+                                                                <!-- counter-area -->
+                                                                <section class="counter-area pb-90">
+                                                                    <div class="container">
+                                                                        <div class="row justify-content-center">
+
+
+                                                                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                                                                <div class="counter-item">
+                                                                                    <div class="counter-icon">
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65 65" fill="none">
+                                            <path d="M32.5 40.6248C42.5965 40.6248 50.7812 32.7432 50.7812 23.0207C50.7812 13.2982 42.5965 5.4165 32.5 5.4165C22.4035 5.4165 14.2188 13.2982 14.2188 23.0207C14.2188 32.7432 22.4035 40.6248 32.5 40.6248Z" stroke="currentcolor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M20.3666 36.6164L20.3396 56.6039C20.3396 59.0414 22.0459 60.2331 24.1584 59.231L31.4167 55.7914C32.0125 55.4935 33.0146 55.4935 33.6104 55.7914L40.8958 59.231C42.9813 60.206 44.7146 59.0414 44.7146 56.6039V36.1289" stroke="currentcolor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                                                                    </div>
+                                                                                    <div class="counter-content">
+                                                                                        <h2 class="count">25</h2>
+                                                                                        <p>Satisfied Clients</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                                                                <div class="counter-item">
+                                                                                    <div class="counter-icon">
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54" fill="none">
+                                            <path d="M33.4999 28.4495V35.2744C33.4999 40.9744 31.2249 43.2494 25.5249 43.2494H18.725C13.05 43.2494 10.75 40.9744 10.75 35.2744V28.4495C10.75 22.7745 13.025 20.4995 18.725 20.4995H25.5499C31.2249 20.4995 33.4999 22.7745 33.4999 28.4495Z" stroke="currentcolor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M43.2498 18.6995V25.5244C43.2498 31.2244 40.9748 33.4994 35.2748 33.4994H33.4998V28.4494C33.4998 22.7744 31.2248 20.4995 25.5249 20.4995H20.4999V18.6995C20.4999 12.9995 22.7749 10.7495 28.4748 10.7495H35.2998C40.9748 10.7495 43.2498 13.0245 43.2498 18.6995Z" stroke="currentcolor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M51.9998 34.5005C51.9998 44.1754 44.1748 52.0004 34.4999 52.0004L37.1249 47.6254" stroke="currentcolor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M2 19.4999C2 9.82496 9.82496 2 19.4999 2L16.8749 6.37498" stroke="currentcolor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                                                                    </div>
+                                                                                    <div class="counter-content">
+                                                                                        <h2 class="count">17</h2>
+                                                                                        <p>Active Project</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                                                                <div class="counter-item">
+                                                                                    <div class="counter-icon">
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49 49" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.125 1.35417C8.125 0.995019 8.26767 0.650582 8.52163 0.396626C8.77558 0.142671 9.12002 0 9.47917 0H39.2708C39.63 0 39.9744 0.142671 40.2284 0.396626C40.4823 0.650582 40.625 0.995019 40.625 1.35417V2.70833H47.3958C47.755 2.70833 48.0994 2.851 48.3534 3.10496C48.6073 3.35892 48.75 3.70335 48.75 4.0625V12.1875C48.75 13.9832 48.0366 15.7054 46.7669 16.9752C45.4971 18.245 43.7749 18.9583 41.9792 18.9583H39.7001C37.6133 24.8625 32.2116 29.2012 25.7292 29.7361V37.9167H35.2083C35.5675 37.9167 35.9119 38.0593 36.1659 38.3133C36.4198 38.5672 36.5625 38.9117 36.5625 39.2708V47.3958C36.5625 47.755 36.4198 48.0994 36.1659 48.3534C35.9119 48.6073 35.5675 48.75 35.2083 48.75H13.5417C13.1825 48.75 12.8381 48.6073 12.5841 48.3534C12.3302 48.0994 12.1875 47.755 12.1875 47.3958V39.2708C12.1875 38.9117 12.3302 38.5672 12.5841 38.3133C12.8381 38.0593 13.1825 37.9167 13.5417 37.9167H23.0208V29.7361C16.5398 29.2012 11.1367 24.8625 9.0499 18.9583H6.77083C4.9751 18.9583 3.25291 18.245 1.98313 16.9752C0.713354 15.7054 0 13.9832 0 12.1875V4.0625C0 3.70335 0.142671 3.35892 0.396626 3.10496C0.650582 2.851 0.995019 2.70833 1.35417 2.70833H8.125V1.35417ZM37.9167 13.5417V2.70833H10.8333V13.5417C10.8333 21.0207 16.8959 27.0833 24.375 27.0833C31.8541 27.0833 37.9167 21.0207 37.9167 13.5417ZM40.625 5.41667V16.25H41.9792C43.0566 16.25 44.0899 15.822 44.8518 15.0601C45.6137 14.2983 46.0417 13.2649 46.0417 12.1875V5.41667H40.625ZM2.70833 5.41667H8.125V16.25H6.77083C5.69339 16.25 4.66008 15.822 3.89821 15.0601C3.13634 14.2983 2.70833 13.2649 2.70833 12.1875V5.41667ZM14.8958 40.625V46.0417H33.8542V40.625H14.8958Z" fill="currentcolor"/>
+                                        </svg>
+                                                                                    </div>
+                                                                                    <div class="counter-content">
+                                                                                        <h2 class="count">10</h2>
+                                                                                        <p>Certifications</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            
+
+
+                                                                        </div>
+                                                                    </div>
+                                                                </section>
+                                                                <!-- counter-area-end -->
+
+                                                            </div>
+                                                            <!-- area-bg-end -->
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-321596d e-con-full e-flex e-con e-parent" data-id="321596d" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                                                    <div class="elementor-element elementor-element-fc1782c elementor-widget elementor-widget-theme-grid-brand-one" data-id="fc1782c" data-element_type="widget" data-widget_type="theme-grid-brand-one.default">
+                                                        <div class="elementor-widget-container">
+
+
+                                                            <!-- brand-area -->
+                                                            <section class="brand-area pt-120 pb-90" data-animation="animationContainer">
+                                                                <div class="container">
+                                                                    <div class="row justify-content-center">
+                                                                        <div class="col-xl-6 col-lg-8">
+                                                                            <div class="section-title text-center mb-50">
+                                                                                <span class="sub-title">
+                                    <strong class="left-shape">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="18" viewBox="0 0 39 18" fill="none">
+                                            <path d="M39 0V3.5H2.6L0 0H39Z" fill="currentcolor" />
+                                            <path d="M39 7.20001V10.7H8.00002L5.40002 7.20001H39Z" fill="currentcolor" />
+                                            <path d="M39 14.4V17.9H13.5L10.9 14.4H39Z" fill="currentcolor" />
+                                        </svg>
+                                    </strong>
+                                    OUR CLIENTS                                    <strong class="right-shape">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="18" viewBox="0 0 39 18" fill="none">
+                                            <path d="M0 0V3.5H36.4L39 0H0Z" fill="currentcolor" />
+                                            <path d="M0 7.20001V10.7H31L33.6 7.20001H0Z" fill="currentcolor" />
+                                            <path d="M0 14.4V17.9H25.5L28.2 14.4H0Z" fill="currentcolor" />
+                                        </svg>
+                                    </strong>
+                                </span>
+                                                                                <h2 class="title" data-splitting="chars" data-animation="innerAnimated">We Respect Businesses and We Push Them Up</h2>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="brand-item-wrap">
+                                                                        <div class="row justify-content-center">
+
+
+
+                                                                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                                                                <div class="brand-item">
+                                                                                    <img decoding="async" src="r13.jpeg" alt="">
+                                                                                </div>
+                                                                            </div>
+
+
+
+                                                                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                                                                <div class="brand-item">
+                                                                                    <img decoding="async" src="r14.png" alt="">
+                                                                                </div>
+                                                                            </div>
+
+
+
+                                                                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                                                                <div class="brand-item">
+                                                                                    <img decoding="async" src="r15.jpeg" alt="">
+                                                                                </div>
+                                                                            </div>
+
+
+
+                                                                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                                                                <div class="brand-item">
+                                                                                    <img decoding="async" src="r16.jpg" alt="">
+                                                                                </div>
+                                                                            </div>
+
+
+
+                                                                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                                                                <div class="brand-item">
+                                                                                    <img decoding="async" src="r17.jpg" alt="">
+                                                                                </div>
+                                                                            </div>
+
+
+
+                                                                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                                                                <div class="brand-item">
+                                                                                    <img decoding="async" src="r18.png  " alt="">
+                                                                                </div>
+                                                                            </div>
+
+
+
+                                                                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                                                                <div class="brand-item">
+                                                                                    <img decoding="async" src="r19.jpeg" alt="">
+                                                                                </div>
+                                                                            </div>
+
+
+
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </section>
+                                                            <!-- brand-area-end -->
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-43da07d e-con-full e-flex e-con e-parent" data-id="43da07d" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+                                                    <div class="elementor-element elementor-element-edbe91d custom-new-testimonial-secc elementor-widget elementor-widget-theme-testimonials-two" data-id="edbe91d" data-element_type="widget" data-widget_type="theme-testimonials-two.default">
+                                                        <div class="elementor-widget-container">
+
+
+                                                            
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </article>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+
+
+    </div>
+
+
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.8.5" id="swv-js"></script>
+    <script type="text/javascript" id="contact-form-7-js-extra">
+        /* <![CDATA[ */
+        var wpcf7 = {
+            "api": {
+                "root": "https:\/\/themedox.com\/mactonal\/wp-json\/",
+                "namespace": "contact-form-7\/v1"
+            }
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.8.5" id="contact-form-7-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/themes/mactonal/assets/js/bootstrap.min.js?ver=5.0" id="bootstrap-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/themes/mactonal/assets/js/popper.min.js?ver=1.0" id="popper-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/themes/mactonal/assets/js/jquery.appear.min.js?ver=1.0" id="jquery-appear-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/themes/mactonal/assets/js/isotope.pkgd.min.js?ver=1.0" id="isotope-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/themes/mactonal/assets/js/jquery.magnific-popup.min.js?ver=1.0" id="js-magnific-popup-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/themes/mactonal/assets/js/jquery.odometer.min.js?ver=1.0" id="odometer-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/themes/mactonal/assets/js/swiper-bundle.min.js?ver=1.0" id="swiper-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/themes/mactonal/assets/js/slick.min.js?ver=1.0" id="slick-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/themes/mactonal/assets/js/slick-animation.min.js?ver=1.0" id="slick-animation-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/themes/mactonal/assets/js/splitting.js?ver=1.0" id="splitting-js-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/themes/mactonal/assets/js/animation.js?ver=1.0" id="animation-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/themes/mactonal/assets/js/tg-cursor.min.js?ver=1.0" id="tg-cursor-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/themes/mactonal/assets/js/wow.min.js?ver=1.0" id="wow-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/themes/mactonal/assets/js/scripts.js?ver=1.0" id="mactonal-scripts-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.18.3" id="elementor-webpack-runtime-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.18.3" id="elementor-frontend-modules-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+    <script type="text/javascript" id="elementor-frontend-js-before">
+        /* <![CDATA[ */
+        var elementorFrontendConfig = {
+            "environmentMode": {
+                "edit": false,
+                "wpPreview": false,
+                "isScriptDebug": false
+            },
+            "i18n": {
+                "shareOnFacebook": "Share on Facebook",
+                "shareOnTwitter": "Share on Twitter",
+                "pinIt": "Pin it",
+                "download": "Download",
+                "downloadImage": "Download image",
+                "fullscreen": "Fullscreen",
+                "zoom": "Zoom",
+                "share": "Share",
+                "playVideo": "Play Video",
+                "previous": "Previous",
+                "next": "Next",
+                "close": "Close",
+                "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right",
+                "a11yCarouselPrevSlideMessage": "Previous slide",
+                "a11yCarouselNextSlideMessage": "Next slide",
+                "a11yCarouselFirstSlideMessage": "This is the first slide",
+                "a11yCarouselLastSlideMessage": "This is the last slide",
+                "a11yCarouselPaginationBulletMessage": "Go to slide"
+            },
+            "is_rtl": false,
+            "breakpoints": {
+                "xs": 0,
+                "sm": 480,
+                "md": 768,
+                "lg": 1025,
+                "xl": 1440,
+                "xxl": 1600
+            },
+            "responsive": {
+                "breakpoints": {
+                    "mobile": {
+                        "label": "Mobile Portrait",
+                        "value": 767,
+                        "default_value": 767,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "mobile_extra": {
+                        "label": "Mobile Landscape",
+                        "value": 880,
+                        "default_value": 880,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "tablet": {
+                        "label": "Tablet Portrait",
+                        "value": 1024,
+                        "default_value": 1024,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "tablet_extra": {
+                        "label": "Tablet Landscape",
+                        "value": 1200,
+                        "default_value": 1200,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "laptop": {
+                        "label": "Laptop",
+                        "value": 1366,
+                        "default_value": 1366,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "widescreen": {
+                        "label": "Widescreen",
+                        "value": 2400,
+                        "default_value": 2400,
+                        "direction": "min",
+                        "is_enabled": false
+                    }
+                }
+            },
+            "version": "3.18.3",
+            "is_static": false,
+            "experimentalFeatures": {
+                "e_dom_optimization": true,
+                "e_optimized_assets_loading": true,
+                "e_optimized_css_loading": true,
+                "additional_custom_breakpoints": true,
+                "container": true,
+                "e_swiper_latest": true,
+                "block_editor_assets_optimize": true,
+                "landing-pages": true,
+                "e_image_loading_optimization": true,
+                "e_global_styleguide": true
+            },
+            "urls": {
+                "assets": "https:\/\/themedox.com\/mactonal\/wp-content\/plugins\/elementor\/assets\/"
+            },
+            "swiperClass": "swiper",
+            "settings": {
+                "page": [],
+                "editorPreferences": []
+            },
+            "kit": {
+                "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                "global_image_lightbox": "yes",
+                "lightbox_enable_counter": "yes",
+                "lightbox_enable_fullscreen": "yes",
+                "lightbox_enable_zoom": "yes",
+                "lightbox_enable_share": "yes",
+                "lightbox_title_src": "title",
+                "lightbox_description_src": "description"
+            },
+            "post": {
+                "id": 155,
+                "title": "Mactonal%20%E2%80%93%20Factory%20and%20Industrial%20WordPress%20Theme",
+                "excerpt": "",
+                "featuredImage": false
+            }
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://themedox.com/mactonal/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.18.3" id="elementor-frontend-js"></script>
+
+</body>
+
+</html>
